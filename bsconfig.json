@@ -1,0 +1,18 @@
+{
+  "name": "sys-command-parsing",
+  "version": "0.1.0",
+  "sources": {
+    "dir" : "src",
+    "subdirs" : true
+  },
+  "entries": [{
+    "backend": "bytecode",
+    "main-module": "Index",
+    "output-name": "sys-command-parsing"
+  },{
+    "backend": "native",
+    "main-module": "Index",
+    "output-name": "sys-command-parsing"
+  }],
+  "refmt": 3
+}
